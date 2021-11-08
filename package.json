@@ -1,0 +1,41 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "taskmanager HTMLacademy",
+  "main": "webpack.config.js",
+  "scripts": {
+    "eslint": "eslint src/",
+    "test": "npm run eslint",
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Al2003x/taskmanager.git"
+  },
+  "author": "Al2003x",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Al2003x/taskmanager/issues"
+  },
+  "homepage": "https://github.com/Al2003x/taskmanager#readme",
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "chartjs-plugin-datalabels": "^0.7.0",
+    "dayjs": "^1.10.6",
+    "flatpickr": "^4.6.9",
+    "he": "^1.2.0"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.7",
+    "eslint": "^7.31.0",
+    "eslint-config-htmlacademy": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
